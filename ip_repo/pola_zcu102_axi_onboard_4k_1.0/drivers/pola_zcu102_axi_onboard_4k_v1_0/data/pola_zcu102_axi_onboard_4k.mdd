@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER pola_zcu102_axi_onboard_4k
+	OPTION supported_peripherals = (pola_zcu102_axi_onboard_4k);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = pola_zcu102_axi_onboard_4k;
+END DRIVER
